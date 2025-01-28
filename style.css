@@ -12,28 +12,6 @@ body {
 
 
 
-/* .logo {
-    font-size: 1.5rem;       /* Make the logo stand out */
-    /* font-weight: bold;
-    text-transform: uppercase; /* Convert text to all caps */
-} */ */
-
-/* .nav-links {
-    display: flex; /* Make links appear in a row */
-    /* gap: 1.5rem;   Add space between links */
-} */
-
-/* .nav-links li {
-    display: inline; /* Links are inline (row) */
-} */
-
-/* .nav-links a {
-    color: white;          /* White links */
-    /* text-decoration: none; /* Remove underline */
-    /* font-size: 1rem;
-    transition: color 0.3s; /* Smooth hover effect */
-} */ */ */
-
  .nav-links a:hover {
     color: #FFD700; /* Gold hover effect */
 } 
@@ -132,11 +110,179 @@ body {
     width:240px;
 }
 
+.dibba:hover img {
+    transform: scale(1.1);
+  }
+
   .resource{
     height: 480px;
     width: 400px;
   }
 
+  .resource h1{
+    font-size: 70px;
+  }
 
-  
+  .resource p{
+    font-family:cursive;
+    font-size: large;
+  }
 
+  .black-signup{
+    background-color: black;
+    height:250px;
+    align-content: center;
+    justify-items: center;
+    
+  }
+
+  .signup h2{
+  color: white;
+  font-weight:300;
+  font-size: 40px;
+  font-family:'roboto';
+  }
+
+  .signup-box{
+display: flex;
+justify-content: center;
+gap: 10px;
+
+
+}
+
+.signup-box input{
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 48px;
+    width: 260px;
+    font-size: 14px;
+    padding-left: 10px;
+    
+}
+
+.signup-box button{
+    height:48px;
+    width: 142px;
+    background-color: #C2DA83;
+}
+
+.browse-by-category{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.browse-by-category h2{
+    color: #92AC5B;
+    font-size:33px;
+}
+
+.browse-by-category a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.eight-icons{
+    display: flex;
+    justify-content:space-evenly;
+    width: 1258px;
+    height: 140px;
+    background-color: #ECECEC;
+    padding: 32px;
+}
+
+.eight-icon-individual{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.latest{
+    display: grid;
+    grid-template-columns:427px 427px 427px 427px;
+    grid-template-rows: 530px 530px;
+    gap:20px;
+    padding: 20px 20px;
+    /* align-items: center; */
+
+}
+
+.latest-box img{
+    height:427px;
+    width:427px;
+}
+
+.latest-box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 20PX;
+    
+}
+
+.latest-box a{
+    font-size: 24.2px;
+    color:#92AC5B;
+}
+
+
+.Search-our-recipe{
+    background-color: #A8AD9B;
+    height: 405px;
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+     justify-content: center;
+     text-align: center;
+}
+
+
+.Search-our-recipe h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+.Search-our-recipe p{
+    color: white;
+    font-size: 33px;
+    font-family: 'kopius';
+    font-weight: 600;
+}
+
+.Search-our-recipe h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.Search-our-recipe-button{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    
+}
+
+.Search-our-recipe-button input{
+height:66px;
+width:530px
+}
+
+.Search-our-recipe-button button{
+ /* height:66px; */
+ width: 170px;
+}
+
+.breakfast-grid-content{
+    width: 1258px;
+    height: 380px;
+    background-color: #444939;
+}
