@@ -1,0 +1,126 @@
+html, body {
+    overflow-x: hidden; 
+    max-width: 100%;
+} 
+
+@media screen and (max-width: 768px) {
+    .topMost {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .topMostItems, .subscribe, .topIcons {
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .blackNavbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .blackItems {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .second {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .badaDibba {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .resource {
+        width: 100%;
+        text-align: center;
+    }
+
+    .latest {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .searchOurRecipeButton {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchOurRecipeButton input,
+    .searchOurRecipeButton button {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .aboutSection {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .aboutImage img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .aboutContent {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .upDown {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .upDownItems {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer1{
+        flex-direction: column;
+        align-items: center ;
+        text-align: center ;
+    }
+    .footer2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .badaDibba {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .latest {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .badaDibba {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .latest {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
