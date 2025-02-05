@@ -4,41 +4,41 @@ html, body {
 } 
 
 @media screen and (max-width: 768px) {
-    .topMost {
+    .navbar1 {
         flex-direction: column;
         height: auto;
         text-align: center;
         padding: 10px 0;
     }
 
-    .topMostItems, .subscribe, .topIcons {
+    .navbar1Items, .subscribe, .navbar1Icons {
         margin: 5px 0;
         padding: 0;
         text-align: center;
     }
 
-    .blackNavbar {
+    .navbar2 {
         flex-direction: column;
         height: auto;
         padding: 10px 0;
     }
 
-    .blackItems {
+    .navbar2Items {
         flex-direction: column;
         text-align: center;
     }
 
-    .second {
+    .section1 {
         flex-direction: column;
         align-items: center;
     }
 
-    .bigGridBox {
+    .gridSection1 {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
 
-    .resource {
+    .resourceSection1 {
         width: 100%;
         text-align: center;
     }
@@ -81,12 +81,12 @@ html, body {
         padding: 20px;
     }
 
-    .upDown {
+    .ourReadersSaySection {
         height: auto;
         padding: 40px 0;
     }
 
-    .upDownItems {
+    .ourReadersSaySectionItems {
         flex-direction: column;
         align-items: center;
     }
@@ -105,7 +105,7 @@ html, body {
 }
 
 @media screen and (max-width: 1024px) {
-    .bigGridBox {
+    .gridSection1 {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -115,7 +115,7 @@ html, body {
 }
 
 @media screen and (min-width: 1440px) {
-    .bigGridBox {
+    .gridSection1 {
         grid-template-columns: repeat(3, 1fr);
     }
 
